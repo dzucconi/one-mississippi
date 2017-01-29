@@ -1,0 +1,65 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  user-select: none;
+  cursor: default;
+  background-color: skyblue;
+  color: blue;
+}
+
+.app {
+  padding: 1em;
+  height: 100%;
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+.current,
+.previous {
+  position: fixed;
+  right: 0;
+  left: 0;
+  padding: 1em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.current {
+  top: 0;
+}
+
+.previous {
+  bottom: 0;
+  text-align: right;
+}
+
+@media (max-width: 800px) {
+  .app {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .app {
+    font-size: 18px;
+  }
+}
