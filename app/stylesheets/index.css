@@ -44,12 +44,12 @@ body {
 }
 
 .current {
-  top: 0;
+  bottom: 0;
+  text-align: right;
 }
 
 .previous {
-  bottom: 0;
-  text-align: right;
+  top: 0;
 }
 
 @media (max-width: 800px) {
