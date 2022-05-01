@@ -1,0 +1,14 @@
+{
+  "name": "one-mississippi",
+  "version": "1.0.0",
+  "author": "dzucconi <mail@damonzucconi.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.5.0",
+    "parcel": "^2.5.0"
+  },
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  }
+}
